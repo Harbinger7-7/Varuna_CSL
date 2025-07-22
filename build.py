@@ -32,7 +32,7 @@ from sentence_transformers import SentenceTransformer
 
 # Paths and settings
 BASE_DIR     = "C:/Users/user/Desktop/Internship_Projects/LLM_Mistral_base"
-DEFAULT_PDF  = os.path.join(BASE_DIR, "data", "Materials_Manual.pdf")
+DEFAULT_PDF  = os.path.join(BASE_DIR, "data", "Materials_Manual.pdf") #you can change the file
 DEFAULT_DB   = os.path.join(BASE_DIR, "Storage_m_varuna")
 COLLECTION   = "rules"
 
